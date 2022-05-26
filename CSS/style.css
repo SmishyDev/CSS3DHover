@@ -1,0 +1,92 @@
+body {
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #4801ff;
+}
+@font-face {
+  font-family: one;
+  src: url('aki.otf');
+}
+.bottom-right {
+  position:fixed;
+  top: 100%;
+  margin-top: -250px;
+  margin-left: 50px;
+  z-index:100;
+}
+.name {
+  font-family: one;
+  color: white;
+  font-size: 3.2rem;
+  -webkit-font-smoothing: antialiased;
+}
+.outline-hover {
+  -webkit-text-stroke: 1.2px white;
+  transition: 0.2s;
+}
+.outline-hover:hover {
+  color: transparent;
+  transition: 0.2s;
+}
+
+
+/* right list */
+.list {
+  list-style: none;
+  list-style-type: none;
+  font-family: one;
+  font-size: 7rem;
+  width: 100px;
+  float: right;
+}
+.BlueP {
+  float: right;
+  width: 1205px;
+  text-align: right;
+  transition: 0.3s;
+  transform: rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
+  margin-right: -40px;
+}
+.BlueP:hover {
+  transition: 0.3s;
+  transform: rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
+}
+.JayWeb {
+  float: right;
+  width: 860px;
+  text-align: right;
+  transition: 0.3s;
+  transform: rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
+}
+.JayWeb:hover {
+  transition: 0.3s;
+  transform: rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
+}
+.SmiWeb {
+  float: right;
+  width: 870px;
+  text-align: right;
+  transition: 0.3s;
+  transform: rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
+  margin-right: -3px;
+}
+.SmiWeb:hover {
+  transition: 0.3s;
+  transform: rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
+}
+.dateBlue {
+  font-size: 1rem;
+}
+.collabBlue {
+  font-size: 1rem;
+}
+.outline-listHover {
+  -webkit-text-stroke: 1.2px black;
+  transition: 0.3s;
+}
+.outline-listHover:hover {
+  transition: 0.3s;
+  color: transparent;
+  text-shadow:
+}
