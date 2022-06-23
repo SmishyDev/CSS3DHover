@@ -73,7 +73,7 @@ body {
 }
 .SmiWeb:hover {
   transition: 0.3s;
-  transform: perspective(400px) rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
+  transform: perspective(-400px) rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
 }
 /*
 hover3D {
