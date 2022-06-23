@@ -45,35 +45,35 @@ body {
   width: 1205px;
   text-align: right;
   transition: 0.3s;
-  transform: rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
+  transform: perspective(200px) rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
   margin-right: -40px;
 }
 .BlueP:hover {
   transition: 0.3s;
-  transform: rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
+  transform: perspective(200px) rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
 }
 .JayWeb {
   float: right;
   width: 860px;
   text-align: right;
   transition: 0.3s;
-  transform: rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
+  transform: perspective(200px) rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
 }
 .JayWeb:hover {
   transition: 0.3s;
-  transform: rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
+  transform: perspective(200px) rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
 }
 .SmiWeb {
   float: right;
   width: 870px;
   text-align: right;
   transition: 0.3s;
-  transform: rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
+  transform: perspective(200px) rotate3d(0, 1, 0, 40deg) translateZ(0) scale(1);
   margin-right: 1px;
 }
 .SmiWeb:hover {
   transition: 0.3s;
-  transform: rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
+  transform: perspective(200px) rotate3d(0, 1, 0, 30deg) translateZ(-105px) scale(1);
 }
 /*
 hover3D {
